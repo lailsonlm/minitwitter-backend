@@ -1,0 +1,11 @@
+{
+  "functions": {
+    "api/index.ts": {
+      "runtime": "@vercel/node@1.15.3"
+    }
+  },
+  "rewites": [{
+    "source": "/(.*)",
+    "destination": "/api"
+  }]
+}
